@@ -1,0 +1,15 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "portfolio-page",
+	"ignore": [
+      "firebase.json",
+      "**/.*",
+	  "database.rules.json"
+    ],
+	"cleanUrls": true,
+    "trailingSlash": false
+  }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Webpage</title>
+    <title>Personal Portfolio</title>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+<!--[if IE]>
+   
+  <style type="text/css">
+
+  #p-about { 
+        background:transparent;
+        /* For IE 5.5 - 7*/
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+		/* For IE 8*/
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; 
+        zoom: 1;
+    } 
+
+    </style>
+
+<![endif]-->
+    
+    
+  </head>
+
+  <body>
+
+    <!--Portfolio Page
+Created By: DevOpSec-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div id="bck-img"></div>
+  
+<!--Header Navigation Bar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top animated-fadeIn" id="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" id="brand" href="#">Tyler Moore</a>
+    </div>
+      <div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+  
+<!--Webpage content-->
+  
+<!--Home Section-->
+<div id="Home" class="container-fluid">
+  <h1 id="h-home" class="border-style"><center>Faulty webpages driving you crazy?</center></h1>
+  <!--Carousel1-->
+ <center> <div class="container-fluid">
+  <br>
+  <div id="home-carousel-1" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#home-carousel-1" data-slide-to="0" class="active"></li>
+      <li data-target="#home-carousel-1" data-slide-to="1"></li>
+      <li data-target="#home-carousel-1" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://reactiongifs.me/wp-content/uploads/2013/09/computer-smash-other-guys-Mark-Wahlberg-angry.gif" class="home-carousel-img">
+      </div>
+      <div class="item">
+        <img src="http://reactiongifs.me/wp-content/uploads/2014/06/it-crowd-maurice-moss-frustration-fuck-this.gif" class="home-carousel-img">
+      </div>
+      <div class="item">
+        <img src="http://cdn.makeagif.com/media/7-02-2015/rEzlu6.gif" class="home-carousel-img">
+      </div>
+      </div>
+   </div></center>
+    <a class="left carousel-control" href="#home-carousel-1" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#home-carousel-1" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+   </div></div></center>
+
+  <center><div class="row text-center" id="row-home"></div>
+    <div class="container" id="home-lower-p"><h2>
+    DevOpSec can help <span class="glyphicon glyphicon-thumbs-up"></span></h2></div></center>
+
+<!--About Section-->
+<center><div class="container-fluid" id="About">
+  <div class="row" id="row-about-head">
+  <h1><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/me.jpg" class="img-thumbnail" id="photo-me"></img><span id="span-about">About Me</span><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/me.jpg" class="img-thumbnail" id="photo-me2"></img></h1>
+  </div>
+<div class="row container-fluid" id="row-about">
+  <p id="p-about" class="border-style">My name is Tyler Moore and I love working with technology! I started working with electronics when I joined the ARMY in 2011. There I troubleshot, diagnosed, and repaired various medical devices and got my first taste of the technology world. I liked it so much I started my career civilian-side as a computer technician and worked various jobs in techinical support for about 3 years. As I rose up in the department, I realized I wanted more than the support world could offer me, so I quickly hit the books and went back to college! I am still attending classes and working on my degree in computer science, striving to become an expert software engineer and cyber security expert. I work on web development projects as a hobby (one of my favorite) besides staying active, and will continue to bring to you amazing web designs that will most certainly emit unto your eyes a visual orgasm. I will also be bringing into this world software to make your day just that much better, as I progress through my training and education, so please stay tuned! Follow me on my instagram if you like motivation in your life and visit my linkedin profile if you have an ingenious idea you would like me to bring to life for your company. For all your development needs, choose Developer Operations & Security. </p></div>
+
+  <div class="row" id="row-about-btns">
+  <div class="col-md-2">
+    <a href="https://www.linkedin.com/in/tylermathieu" target="_blank" id="btn-linkedin" class="btn btn-default btn-block">LinkedIn</a></div>
+    <div class="col-md-2">
+    <a href="https://www.instagram.com/tyler.mathieu" target="_blank" id="btn-instagram" class="btn btn-default btn-block">Instagram</a></div>
+    <div class="col-md-2">
+    <a href="https://github.com/devopsec" target="_blank" id="btn-github" class="btn btn-default btn-block">GitHub</a></div>
+    <div class="col-md-2">
+    <a href="https://www.freecodecamp.com/devopsec" target="_blank" id="btn-freecodecamp" class="btn btn-default btn-block">FreeCodeCamp</a></div></div></div></center>
+
+<!--Portfolio Section-->
+<div id="Portfolio" class="container-fluid">
+  <center><div class="row">
+    <b><p id="p-portfolio" class="border-style">I WORK WITH VARIOUS TECHNOLOGIES:</P></b>
+    <br>
+  <div id="portfolio-carousel-1" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators" id="indicators">
+      <li data-target="#portfolio-carousel-1" data-slide-to="0" class="active"></li>
+      <li data-target="#portfolio-carousel-1" data-slide-to="1"></li>
+      <li data-target="#portfolio-carousel-1" data-slide-to="2"></li>
+      <li data-target="#portfolio-carousel-1" data-slide-to="3"></li>
+      <li data-target="#portfolio-carousel-1" data-slide-to="4"></li>
+      <li data-target="#portfolio-carousel-1" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/front-end.jpg">
+      </div>
+      <div class="item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/Java8.png" class="portfolio-carousel-img">
+      </div>
+      <div class="item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/c%2B%2Blogo.jpg">
+      </div>
+      <div class="item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/pythonlogo.jpg">
+      </div>
+      <div class="item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/Raspberry_Pi_Logo.png" class="portfolio-carousel-img">
+      </div>
+       <div class="item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/os_icons.png">
+      </div>
+      </div>
+   </div></center>
+    <a class="left carousel-control" href="#portfolio-carousel-1" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#portfolio-carousel-1" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+   </div></div></center><br>
+<center><div id="p2-portfolio" class="container-fluid row">
+  <b><p class="border-style">Check out my projects Here:</p></b><br>
+  <div class="container-fluid row" id="p-button-row">
+    <div class="col-md-6">
+      <a href="https://codepen.io/devopsec/" target="_blank" class="btn-lg btn-default">FRONT END</a></div>
+    <div class="col-md-6">
+  <a href="https://github.com/devopsec?tab=repositories" target="_blank" class="btn-lg btn-default">FULL STACK</a></div>
+  </div></center>
+  </div></div></center>
+<!--Contact Section-->
+<div class="row" id="Contact">
+    <h1 class="text-center">Contact Me</h1>
+  <div class="row"></div>
+   <div class="row container-fluid" id="row-contact">
+     <div class="col-md-3"></div>
+     <div class="col-md-2">
+    <a href="skype:ty.mathieu?call" target="_blank" id="btn-skype" class="btn btn-default btn-block">Skype</a></div>
+    <div class="col-md-2">
+    <a href="mailto:tyler.mathieu@yahoo.com" target="_blank" id="btn-email" class="btn btn-default btn-block">Email</a></div>
+    <div class="col-md-2">
+    <a href="#" data-toggle="popover" title="(248)909-2769" id="btn-phone" class="btn btn-default btn-block">Phone</a></div>
+  <div class="col-md-3"></div>
+  </div></div></div></div>
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

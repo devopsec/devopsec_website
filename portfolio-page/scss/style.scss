@@ -1,0 +1,133 @@
+body{
+  position: relative;
+  overflow: hidden;
+}
+#home-lower-p {font-size: 18px; margin-top: 5%;}
+#Home {padding-top:8%; margin-bottom: 10%; height:500px;}
+#About {padding-top:6%; margin-bottom: 25%; height:500px;}
+#Portfolio { margin-top: 20%; padding-bottom: 5% padding-top 5%; height:500px;}
+#Contact {padding-bottom: 35%; margin-top:20%; height:500px;}
+#brand {font-family: serif, Sans-serif;
+  color: white;font-weight: bold; text-shadow: 2px -2px 2px #0FF;}
+.navbar{
+  background-size: cover;
+  background-attachment: fixed;
+  /*opacity: 0.4;
+  filter:alpha(opacity=40)*/
+}
+#bck-img { 
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/portfolio-background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 102%;
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+  opacity: 0.4;
+}
+
+.border-style {
+ color: white;
+    border: 10px solid transparent;
+    padding: 15px;
+    -moz-border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/shinymetal-color.jpg") 15% round; /* firefox 3.5+ */
+    -webkit-border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/shinymetal-color.jpg") 15% round; /* Safari 3.1+ */
+    -o-border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/shinymetal-color.jpg") 15% round; /* Opera 11+ */
+    border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/shinymetal-color.jpg") 15% round;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/shinymetal-color.jpg");
+}
+
+#h-home {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-default {outline-style: outset; border-style: ridge; color: #FFF; text-shadow: 3px -2px 3px #48D; background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/581149/shinymetal-color.jpg")}
+
+#photo-me {height: 125px;
+width: 5%;
+margin-right: 20px;}
+#photo-me2 {height: 125px;
+width: 5%;
+margin-left: 20px;}
+#row-about-head {margin-left: auto;
+text-align: center; margin-bottom: 8%;}
+#row-home {margin: auto;}
+#row-contact {
+margin-top: 5%;}
+p {
+  background-color: #FDE;
+    width: auto;
+    padding: 10px;
+    border: 3px solid;
+  border-color: rgb(0, 100, 255);
+  margin: auto;}
+#p-about {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 18px; margin-left: auto; /* RGBa with 0.6 opacity */ background: rgba(0, 0, 0, 0.6);}
+#row-about {margin-top: 5%;}
+#row-about-btns {margin-left: 25%;
+margin-top: 10%;}
+#p-portfolio {margin-top: 5%}
+#p2-portfolio {margin-top: 5%;}
+#indicators li {background-color: #000;}
+#indicators {top: -50px; position: absolute;}
+.portfolio-carousel-img {width: 300px; height: 250px !important;}
+.home-carousel-img {width: 600px; height: 400px !important; padding-top: 5%;}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    display: none;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    display: none;}
+#portfolio-carousel-1 {
+  max-width: 400px; max-height: 400px; margin-top: 5%;
+}
+#p-button-row {
+  margin-top: 5%;
+}
+#p-button-row a:hover {
+	animation: glow 800ms ease-out infinite alternate;
+	background: #222922;
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+
+@keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+       /* default styles here for older browsers. */
+    @media only screen and (min-width:960px){
+        /* styles for browsers larger than 960px; */
+    }
+    @media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width:2000px){
+        /* for sumo sized (mac) screens */
+    }
+    @media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
