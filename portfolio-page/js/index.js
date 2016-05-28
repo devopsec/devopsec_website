@@ -12,7 +12,7 @@ $("#btn-phone").click(function(e) {
 
 $(document).ready(function() {
   $('[data-toggle="popover"]').popover();
-
+$('#btn-phone').popover(); 
 
  $(".left").click(function(){
   $("#home-carousel-1").carousel("prev");
